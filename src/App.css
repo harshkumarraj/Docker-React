@@ -9,14 +9,14 @@
 body {
   background: linear-gradient(
     90deg,
-    rgba(48, 16, 255, 1) 0%,
-    rgba(100, 115, 255, 1) 100%
+    rgb(36, 92, 99) 0%,
+    rgb(100, 255, 105) 100%
   );
 }
 .todo-app {
-  display: flex;
+  display: flex-start;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   width: 45%;
   min-height: 600px;
   background: white;
